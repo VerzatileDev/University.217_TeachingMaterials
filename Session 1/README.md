@@ -305,8 +305,6 @@ There is one issue with the current .gitignore file... If you want to add .obj f
 
 * Make sure you understand how GitHub works. Make sure to _git clone_ your work onto your home computer / laptop so you can work on the project outside of lecture / lab hours.
 
-<br>This will make sure you understand how Git works.</br>
-
 > Make sure to _git pull_ when you are on another machine when you do changes so you have the latest files as your local copy!
 
 Although graphics will not be marked as part of 217CR, you will still need to understand how OpenGL works.
