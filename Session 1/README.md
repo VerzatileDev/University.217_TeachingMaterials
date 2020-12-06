@@ -31,11 +31,11 @@ Once you have logged into the server, go to the 217CR organization in 1 of 3 way
 
 > **If you cannot access the organization, I have to manually add you to sort it. Talk to me ASAP.**
 
-* On the main screen, clicking the dropdown list on the left side and selecting 217CR-1920JANMAY and then _"View organization"_.
-* On the main screen, clicking your profile picture in the top right, then _"Your Profile"_, then selecting 217CR-1920JANMAY via the icon on the left side.
-* Using the direct link - https://github.coventry.ac.uk/217CR-1920JANMAY
+* On the main screen, clicking the dropdown list on the left side and selecting 217CR-2021 and then _"View organization"_.
+* On the main screen, clicking your profile picture in the top right, then _"Your Profile"_, then selecting 217CR-2021 via the icon on the left side.
+* Using the direct link - https://github.coventry.ac.uk/orgs/217CR-2021
 
-![Organizations picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Organizations.png)
+![Organizations picture](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Organizations.png)
  
  Once there, create a new repository via the green _"New button"_.
  
