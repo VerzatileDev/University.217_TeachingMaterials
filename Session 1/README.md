@@ -2,7 +2,7 @@
 
 #### Table of Contents
 1. [Setting up in GitHub](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#setting-up-in-github)
-2. [Cloning the repository](https://github.coventry.ac.uk/217CR-2021Y/Teaching-Material/blob/master/Week%201/README.md#cloning-the-repository)
+2. [Cloning the repository](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#cloning-the-repository)
 3. [Creating a C++ Project using Visual Studio](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#creating-a-c-project-using-visual-studio)
 4. [Using OpenGL with the project](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#using-opengl-with-the-project)
 5. [Base Code](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Week%201#base-code)
@@ -46,8 +46,9 @@ Once you have logged into the server, go to the 217CR organization in 1 of 3 way
  * For the repository name, call it something obvious (and add your student ID) to the front.
  * Set it to private (or everyone in the university can see it!).
  * Initialize a README file.
+ * Choose a VisualStudio .gitignore file.
  
- By doing all of this, it means that the markers will be able to see it, that other students cannot and that you can clone it straight away to your PC.
+ By doing all of this, it means that the markers will be able to see it, that other students cannot, that you can clone it straight away to your PC and you can commit changes without having to close Visual Studio.
  
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Create%20Repository.png">
