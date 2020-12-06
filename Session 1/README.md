@@ -243,7 +243,7 @@ When the "Property Page" window has opened, make sure it says "Active(Debug)" an
 
 This week, we will just add some base OpenGL code. This is a static scene (so nothing moves) and is just to make sure everyone has got a working Visual Studio project that can run OpenGL content ready for later weeks.
 
-Copy all the code from the _"BaseCode.cpp"_ which is on the Week 1 GitHub page and paste it over everything in your _"main.cpp"_ or _"Source.cpp"_.
+Copy all the code from the _"BaseCode.cpp"_ which is on the Week 1 GitHub page (https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/BaseCode.cpp) and paste it over everything in your _"main.cpp"_ or _"Source.cpp"_.
 
 Run the code to get the following scene.
 
