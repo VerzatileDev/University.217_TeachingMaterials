@@ -182,7 +182,7 @@ The libraries we will be using are:
 
 These are the same versions as the ones from 212CR so they should not cause any issues overall.
 
-> You can download the library files I use through-out this tutorial series by downloading and extracting the _"Library Files"_ .zip file on the module Moodle page.
+> You can download the library files I use through-out this tutorial series by downloading and extracting the _"Library Files"_ .zip file on the module Aula page.
 
 These libraries are created for a certain build of project which can be a mix of Debug or Release and Win32 (x86) or Win64 (x64). For our case, these are for both Debug or Release and Win64 (x64).
 
@@ -192,7 +192,7 @@ We can change these in Visual Studio via the two dropdowns next to _"Local Windo
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Debug%20x64.PNG">
 </p>
 
-We now need to place these library files in a place where Visual Studio (and your code) can see and use them. Download (and extract) the files with the link above now if you have not already.
+We now need to place these library files in a place where Visual Studio (and your code) can see and use them. Download (and extract) the files from the _"Library Files"_ .zip file if you have yet to.
 
  Files you should have after extraction   | 
 ------------- | 
@@ -277,33 +277,28 @@ Once there, use the three above commands to push your changes to GitHub. You can
 
 ## The power of the .gitignore file
 
+The reason we added a .gitignore file was to stop the following error when we try to use _git add ._. This error occurs when the project (and Visual Studio) are still open at the time of the _add_ command and both Git tries to access the project file when Visual Studio already has it open.
+
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20issue.PNG">
 </p>
 
-Some of you might of got the above error when you tried to use _git add._. This is because your project (and Visual Studio) was still open at the time of the add command and both Visual Studio and Git were trying to access a project file at the same time.
+> Without a .gitignore file, you would have to close Visual Studio fully and then use the 3 commands to push the changes to the repository. Of course, this gets annoying fast if you have to close and re-open Visual studio every time you want to push something!
 
-> The way to solve this is to close Visual Studio fully and then use the 3 commands to push the changes to the repository. Of course, this gets annoying fast if you have to close and re-open Visual studio every time you want to push something!
-
-This is where a _.gitignore_ file comes in handy... This file means that whatever file extensions / folders are written in it are not considered when pushing and pulling from the repository.
+A .gitignore file means that whatever file extensions / folders are written in it are not considered when pushing and pulling from the repository.
 
 This allows us to remove the files that would be open when Visual Studio is, meaning we:
 
 * Can push without the above error
 * Stop unneeded files from being pulled/pushed saving on download time!
 
-Download the _.gitignore_ file from the module Moodle page and move it to where your README file is. 
-
-Go into your project files and delete the _".vs"_ and _"x64"_ folders from the project files. Now push this all to your repository.
-
-This should now allow you to add, commit and push future changes with visual studio open. It should also not bring in unneeded Build folders when you pull and clone your repository in the future saving on downloading MBs of extra data.
+This should now allow you to add, commit and push future changes with Visual Studio open. It should also not bring in unneeded Build folders when you pull and clone your repository in the future saving on downloading MBs of extra data.
 
 ## Homework
 
-
 * Make sure you understand how GitHub works. Make sure to _git clone_ your work onto your home computer / laptop so you can work on the project outside of lecture / lab hours.<br/>This will make sure you understand how Git works.
 
-> Make sure to _git pull_ when you are on the other machine when you do changes so you have the latest files as your local copy!
+> Make sure to _git pull_ when you are on anothermachine when you do changes so you have the latest files as your local copy!
 
 Although graphics will not be marked as part of 217CR, you will still need to understand how OpenGL works.
 
