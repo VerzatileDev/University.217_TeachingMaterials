@@ -1,14 +1,14 @@
 # Session 1 - Setting up the project and GitHub
 
 #### Table of Contents
-1. [Setting up in GitHub](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#setting-up-in-github)
-2. [Cloning the repository](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#cloning-the-repository)
-3. [Creating a C++ Project using Visual Studio](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#creating-a-c-project-using-visual-studio)
-4. [Using OpenGL with the project](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#using-opengl-with-the-project)
-5. [Base Code](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Week%201#base-code)
-6. [Pushing the changes to the repository](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#pushing-the-changes-to-the-repository)
-7. [The power of the .gitignore file](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#the-power-of-the-gitignore-file)
-8. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#homework)
+1. [Setting up in GitHub](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/README.md#setting-up-in-github)
+2. [Cloning the repository](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/README.md#cloning-the-repository)
+3. [Creating a C++ Project using Visual Studio](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/README.md#creating-a-c-project-using-visual-studio)
+4. [Using OpenGL with the project](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/README.md#using-opengl-with-the-project)
+5. [Base Code](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%201#base-code)
+6. [Pushing the changes to the repository](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/README.md#pushing-the-changes-to-the-repository)
+7. [The power of the .gitignore file](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/README.md#the-power-of-the-gitignore-file)
+8. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/README.md#homework)
 
 
 Welcome to this 217CR tutorial series! 
