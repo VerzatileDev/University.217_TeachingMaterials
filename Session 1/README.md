@@ -277,7 +277,7 @@ Once there, use the three above commands to push your changes to GitHub. You can
 
 ## The power of the .gitignore file
 
-The reason we added a .gitignore file was to stop the following error when we try to use _git add ._. This error occurs when the project (and Visual Studio) are still open at the time of the _add_ command and both Git tries to access the project file when Visual Studio already has it open.
+The reason we added a .gitignore file was to stop the following error when we try to use _git add ._ . This error occurs when the project (and Visual Studio) are still open at the time of the _add_ command and both Git tries to access the project file when Visual Studio already has it open.
 
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20issue.PNG">
@@ -300,7 +300,7 @@ This should now allow you to add, commit and push future changes with Visual Stu
 
 <br>This will make sure you understand how Git works.</br>
 
-> Make sure to _git pull_ when you are on anothermachine when you do changes so you have the latest files as your local copy!
+> Make sure to _git pull_ when you are on another machine when you do changes so you have the latest files as your local copy!
 
 Although graphics will not be marked as part of 217CR, you will still need to understand how OpenGL works.
 
