@@ -228,7 +228,7 @@ We can do this via the "Property Page" of the project. You can access this in 1 
 
 * Click _"Project"_ at the top left of the screen, then _"Properties"_.
 * Right click the project name in the "Solution Explorer" and select _"Properties"_.
-* Click the "Solution Explorer" so you have selected it and hit _"Alt + Enter"_ at the same time.
+* Click your project _(not the Solution)_ in the "Solution Explorer" to highlight and hit _"Alt + Enter"_ at the same time.
 
 When the "Property Page" window has opened, make sure it says "Active(Debug)" and "Active(x64)". (If it does not show that, close the window, change it in the 2 dropdowns in Visual Studio and come back to the "Property Page" window.)
 
@@ -296,7 +296,7 @@ This should now allow you to add, commit and push future changes with Visual Stu
 
 ## Homework
 
-* Make sure you understand how GitHub works. Make sure to _git clone_ your work onto your home computer / laptop so you can work on the project outside of lecture / lab hours.<br/>This will make sure you understand how Git works.
+* Make sure you understand how GitHub works. Make sure to _git clone_ your work onto your home computer / laptop so you can work on the project outside of lecture / lab hours.<br/>This will make sure you understand how Git works.</br>
 
 > Make sure to _git pull_ when you are on anothermachine when you do changes so you have the latest files as your local copy!
 
