@@ -294,7 +294,7 @@ This allows us to remove the files that would be open when Visual Studio is, mea
 
 This should now allow you to add, commit and push future changes with Visual Studio open. It should also not bring in unneeded Build folders when you pull and clone your repository in the future saving on downloading MBs of extra data.
 
-There is one issue with the current .gitignore file... If you want to add .obj files later for 212CR, the gitignore will cause them not to be pushed to the repository. To counter this, click the file when on the Coventry GitHub website and remove 2 lines from the .gitignore file and then commit these changes (as shown in the picture below).
+There is one issue with the current .gitignore file... If you want to add .obj files later for 212CR, the gitignore will cause them not to be pushed to the repository. To counter this, click the file when on the Coventry GitHub website and remove 2 lines from the .gitignore file _(the lines with [Oo]bj/ and *.obj on - these were on lines 30 and 73 for me)_ and then commit these changes (as shown in the picture below).
 
 <p align="center">
 	
