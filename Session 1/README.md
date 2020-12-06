@@ -158,6 +158,8 @@ Type in the following code to get us started and make sure it all works. Once yo
 int main(int argc, char** argv)
 {
 	std::cout << "Hello world!" << std::endl;
+	
+	system("PAUSE");
 	return 0;
 }
 ```
