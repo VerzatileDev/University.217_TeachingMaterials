@@ -54,7 +54,7 @@ Once you have logged into the server, go to the 217CR organization in 1 of 3 way
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Create%20Repository.png">
 </p>
 
- Finally, add the module staff to your repository so they have access to it. (Our information can be found on the 217CR moodle page under _Module Essentials_.)
+ Finally, add the module staff to your repository so they have access to it. (Our information can be found on the 217CR Aula page under _Module Essentials_ -> _Module Guide_.)
  
  Go into your repository from the website, click "Settings", then "Collaborators", and then search for, and add, both members of module staff (Ian and Will) to the page. 
  
@@ -68,7 +68,7 @@ Once you have made your repository, it should take you to it's page. (If you hav
   
 The next step is to clone this repository to your PC so you have a local copy to do changes on.
 
-> For these tutorials, I will be using the command line (_cmd_) to use Git. You are allowed to use programs like GitHub Desktop (which can be accessed via AppsAnywhere) but if you come into problems with them, **staff might not be able to help**.
+> For these tutorials, I will be using the command line (_cmd_) to use Git. You are allowed to use programs like GitHub Desktop (which can be accessed via AppsAnywhere on University PCs) but if you come into problems with them, **staff might not be able to help**.
 
 To clone a respository you will need the URL of it. Copy this from the address bar of your browser or use the green _"Clone or download"_ button and copy the URL from the pop up box.
 
@@ -103,7 +103,7 @@ Once at a good directory, git clone your repository. It might ask you to log in 
 
 When you have submitted them, the repository (and it's files) should now be on your PC.
 
-At the moment, it should only be the README file.
+At the moment, it should contain only the the README and gitignore files.
   
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Cloned.PNG">
