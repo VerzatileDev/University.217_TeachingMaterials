@@ -1,14 +1,14 @@
 # Session 1 - Setting up the project and GitHub
 
 #### Table of Contents
-1. [Setting up in GitHub](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Week%201/README.md#setting-up-in-github)
-2. [Cloning the repository](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Week%201/README.md#cloning-the-repository)
-3. [Creating a C++ Project using Visual Studio](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Week%201/README.md#creating-a-c-project-using-visual-studio)
-4. [Using OpenGL with the project](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Week%201/README.md#using-opengl-with-the-project)
-5. [Base Code](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Week%201#base-code)
-6. [Pushing the changes to the repository](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Week%201/README.md#pushing-the-changes-to-the-repository)
-7. [The power of the .gitignore file](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Week%201/README.md#the-power-of-the-gitignore-file)
-8. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Week%201/README.md#homework)
+1. [Setting up in GitHub](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#setting-up-in-github)
+2. [Cloning the repository](https://github.coventry.ac.uk/217CR-2021Y/Teaching-Material/blob/master/Week%201/README.md#cloning-the-repository)
+3. [Creating a C++ Project using Visual Studio](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#creating-a-c-project-using-visual-studio)
+4. [Using OpenGL with the project](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#using-opengl-with-the-project)
+5. [Base Code](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Week%201#base-code)
+6. [Pushing the changes to the repository](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#pushing-the-changes-to-the-repository)
+7. [The power of the .gitignore file](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#the-power-of-the-gitignore-file)
+8. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Week%201/README.md#homework)
 
 
 Welcome to this 217CR tutorial series! 
@@ -25,7 +25,9 @@ Go onto the Coventry GitHub server via https://github.coventry.ac.uk and sign in
 
 > **If you cannot sign into the server, talk to me / email me ASAP as this needs to be sorted out.**
 
-![Sign in picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Sign%20in.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Sign%20in.PNG">
+</p> 
  
 Once you have logged into the server, go to the 217CR organization in 1 of 3 ways.
 
@@ -35,7 +37,9 @@ Once you have logged into the server, go to the 217CR organization in 1 of 3 way
 * On the main screen, clicking your profile picture in the top right, then _"Your Profile"_, then selecting 217CR-2021 via the icon on the left side.
 * Using the direct link - https://github.coventry.ac.uk/orgs/217CR-2021
 
-![Organizations picture](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Organizations.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Organizations.png">
+</p>
  
  Once there, create a new repository via the green _"New button"_.
  
@@ -45,14 +49,18 @@ Once you have logged into the server, go to the 217CR organization in 1 of 3 way
  
  By doing all of this, it means that the markers will be able to see it, that other students cannot and that you can clone it straight away to your PC.
  
-![Create a repository picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Create%20Repository.png)
- 
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Create%20Repository.png">
+</p>
+
  Finally, add the module staff to your repository so they have access to it. (Our information can be found on the 217CR moodle page under _Module Essentials_.)
  
  Go into your repository from the website, click "Settings", then "Collaborators", and then search for, and add, both members of module staff (Ian and Will) to the page. 
  
- ![Add collaborators picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20Collabs.png)
- 
+ <p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20Collabs.png">
+</p>
+
   ## Cloning the repository
   
 Once you have made your repository, it should take you to it's page. (If you have backed out of this, you can always find it by clicking on your profile picture and selecting _"Your repositories"_.)
@@ -63,8 +71,10 @@ The next step is to clone this repository to your PC so you have a local copy to
 
 To clone a respository you will need the URL of it. Copy this from the address bar of your browser or use the green _"Clone or download"_ button and copy the URL from the pop up box.
 
-![Cloning a repository picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Clone%20or%20Download.PNG)
-  
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Clone%20or%20Download.PNG">
+</p>
+
   Open command line by typing cmd into Windows search. 
   
   Once there, you might have to navigate to your user area on the hard drive.
@@ -80,7 +90,9 @@ dir      | Print out what is in the directory.
 mkdir "name for directory" | Create that directory / folder.
 git clone "url" | Clones the repository into the current directory you are at.
 
-![cmd steps picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/cmd%20steps.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/cmd%20steps.PNG">
+</p>
 
 > _These are the steps I took to get to my Documents folder for example._
 
@@ -92,7 +104,9 @@ When you have submitted them, the repository (and it's files) should now be on y
 
 At the moment, it should only be the README file.
   
-![cloned picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Cloned.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Cloned.PNG">
+</p>
 
 It is here that we will create a C++ project so it is in the GitHub repository, meaning we can push and pull changes to it.
 
@@ -117,9 +131,13 @@ It is here that we will create a C++ project so it is in the GitHub repository, 
 
 Once this has been done, click _"Create"_.
 
-![empty project picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Empty%20Project.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Empty%20Project.PNG">
+</p>
 
-![empty project picture 2](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Creating%20Project.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Creating%20Project.PNG">
+</p>
 
 We need to create the _.cpp_ file that will hold the _main()_ function. Remember, every C++ program needs a _main()_ function to run.
 
@@ -127,8 +145,9 @@ This can be done by right clicking "Source Files" on the right hand side (in the
 
 Make sure C++ File (_.cpp_) is highlighted and either change the name (I always use _main.cpp_) or keep it as _Source.cpp_ and click _"Add"_ in the bottom right.
 
-![add file picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20file.PNG)
-
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20file.PNG">
+</p>
 
 Type in the following code to get us started and make sure it all works. Once you have typed it in, click _"Local Windows Debugger"_ (or hit _"F5"_) at the top middle of the screen to compile and run the code.
 
@@ -166,7 +185,9 @@ These libraries are created for a certain build of project which can be a mix of
 
 We can change these in Visual Studio via the two dropdowns next to _"Local Windows Debugger"_. Make sure your project shows _"Debug"_ and _"x64"_.
 
-![project build picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Debug%20x64.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Debug%20x64.PNG">
+</p>
 
 We now need to place these library files in a place where Visual Studio (and your code) can see and use them. Download (and extract) the files with the link above now if you have not already.
 
@@ -188,11 +209,15 @@ For moving the library files, we shall place them where the project files are. T
 
 > Don't know where your project files are? Right click the project name in "Solution Explorer" and select _"Open Folder in File Explorer"_. 
 
-![open folder picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/open%20folder.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/open%20folder.PNG">
+</p>
 
 Your project files should now look something like this. (Of course, your project name will be different to mine!)
 
-![project files picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Added%20library%20files.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Added%20library%20files.PNG">
+</p>
 
 Moving the files is not enough. We now need to tell Visual Studio where these files are by 'linking' them.
 
@@ -207,7 +232,9 @@ When the "Property Page" window has opened, make sure it says "Active(Debug)" an
 * Select "C/C++" and type include into the _"Additional Include Directories"_ textbox.
 * Select "Linker" and type include into the _"Additional Library Directories"_ textbox.
 
-![linking picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Linking.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Linking.png">
+</p>
 
 ## Base Code
 
@@ -217,7 +244,9 @@ Copy all the code from the _"BaseCode.cpp"_ which is on the Week 1 GitHub page a
 
 Run the code to get the following scene.
 
-![scene picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Basic%20Scene.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Basic%20Scene.PNG">
+</p>
 
 > If you do not get the following scene, something is wrong. Look over the above tutorial again and see if you missed anything. The error messages shown in Visual Studio should give you a loose guide. If you get stuck, ask for help from the module staff.
 
@@ -237,13 +266,17 @@ Go into command line and navigate to where your repository is saved. (Make sure 
 
 Once there, use the three above commands to push your changes to GitHub. You can check the website version to make sure the push has happened.
 
-![push command picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Push.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Push.png">
+</p>
 
 > Did something stop you using _git add ._? Either way, read the next section about _.gitignore_!
 
 ## The power of the .gitignore file
 
-![add issue picture](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20issue.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Add%20issue.PNG">
+</p>
 
 Some of you might of got the above error when you tried to use _git add._. This is because your project (and Visual Studio) was still open at the time of the add command and both Visual Studio and Git were trying to access a project file at the same time.
 
