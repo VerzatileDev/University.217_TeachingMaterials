@@ -103,7 +103,7 @@ Once at a good directory, git clone your repository. It might ask you to log in 
 
 When you have submitted them, the repository (and it's files) should now be on your PC.
 
-At the moment, it should contain only the the README and gitignore files.
+At the moment, it should contain only the the README and gitignore files. (And a hidden folder called .git)
   
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%201/Readme%20Pictures/Cloned.PNG">
