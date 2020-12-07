@@ -1,14 +1,14 @@
 # Session 2 - Using Classes
 
 #### Table of Contents
-1. [Why use classes?](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#why-use-classes)
-2. [Creating a class](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#creating-a-class)
-3. [Header and C++ files](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#header-and-c-files)
-4. [Making a basic class](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#making-a-basic-class)
-5. [Using the new class](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#using-the-new-class)
-6. [Creating multiple instances of the class](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#using-the-new-class)
-7. [Documentation](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#documentation)
-8. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/README.md#homework)
+1. [Why use classes?](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/README.md#why-use-classes)
+2. [Creating a class](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/README.md#creating-a-class)
+3. [Header and C++ files](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/README.md#header-and-c-files)
+4. [Making a basic class](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/README.md#making-a-basic-class)
+5. [Using the new class](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/README.md#using-the-new-class)
+6. [Creating multiple instances of the class](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/README.md#using-the-new-class)
+7. [Documentation](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/README.md#documentation)
+8. [Homework](https://github.coventry.ac.uk/2217CR-2021/Teaching-Material/blob/master/Session%202/README.md#homework)
 
 Last session, we created a GitHub repository in the 217CR organization and added our base Visual Studio project to it.
 
