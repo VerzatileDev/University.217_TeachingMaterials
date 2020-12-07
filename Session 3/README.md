@@ -25,7 +25,7 @@ This seems like an easy way to do things - Write it once and copy it over each t
 * By copying the code over, any errors/bugs in the code are also copied over and are in different places in the project. Have fun patching 10's of classes because of this! As said in previous weeks, you will miss a class, meaning bugs will re-appear later on in the project you thought you had fully fixed. (Welcome to the world of day 1 patches for games.)
 * We have 2 classes that are conceptually similar to humans (2 shapes in the game scene), but the compiler does not see these as similar which causes some coding problems.
 
-> You think changing your coursework assignment code is bad between weeks? Read this and feel lucky! https://www.engadget.com/2014/10/06/the-crouch-that-changed-assassins-creed/
+> You think changing your coursework assignment code is bad between weeks? Read this and feel lucky! ("We rewrote like 6 million lines of code for this") https://www.engadget.com/2014/10/06/the-crouch-that-changed-assassins-creed/
 
 Let us see an example if we made a new class by copying and pasting code with the changes needed.
 
