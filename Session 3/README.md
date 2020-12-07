@@ -1,10 +1,10 @@
 # Session 3 - Inheritance and Polymorphism
 
 #### Table of Contents
-1. [The issues with adding classes](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%203/README.md#the-issues-with-adding-classes)
-2. [Using inheritance](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%203/README.md#using-inheritance)
-3. [Using Polymorphism](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%203/README.md#using-polymorphism)
-4. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%203/README.md#using-polymorphism)
+1. [The issues with adding classes](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%203/README.md#the-issues-with-adding-classes)
+2. [Using inheritance](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%203/README.md#using-inheritance)
+3. [Using Polymorphism](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%203/README.md#using-polymorphism)
+4. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%203/README.md#using-polymorphism)
 
 Last session, we created a class in our base C++ project and discussed documentation.
 
@@ -29,7 +29,9 @@ This seems like an easy way to do things - Write it once and copy it over each t
 
 Let us see an example if we made a new class by copying and pasting code with the changes needed.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%203/Readme%20pictures/Similar%20Classes.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%203/Readme%20pictures/Similar%20Classes.png">
+</p> 
 
 Hopefully you see that only the class name and the 1 line in the _Draw_ function has changed!
 
