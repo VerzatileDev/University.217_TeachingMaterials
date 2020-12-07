@@ -150,7 +150,7 @@ Open your classes corresponding C++ file... Empty! (Other than the needed _#incl
 
 Now, we could type the needed parts out manually... But, as programmers, we are lazy (in a good way!). So why not let technology do the work for us? (Also, manually typing might include typos!) 
 
-Hover your mouse over each part of the code with a squiggle and click on the screwdriver. Choose _"Create definition of ... in Cube.cpp"_ for all three of the needed areas.
+Hover your mouse over each part of the code with a squiggle and click on the screwdriver/lightbulb. Choose _"Create definition of ... in Cube.cpp"_ for all three of the needed areas.
 
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/No%20definition.png">
