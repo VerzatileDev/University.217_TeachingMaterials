@@ -75,7 +75,9 @@ There are 3 ways you can create a class.
 
 > All three of these ways work the same and it is more down to personal preference. I would suggest you try all three to see which one you like the most.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Class%20creation.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Class%20creation.png">
+</p> 
 
 For all 3 methods, you can either access them via _"Project"_ in the top menu or by right clicking _Source Files_ or _Header Files_ in the "Solution Explorer".
 
@@ -85,11 +87,15 @@ For the _"Class Wizard"_, click on _"Add Class..."_. (This will open up the _"Ad
 
 For the _"Add Class"_ method, type in the _Class Name_ section and it will automatically fill out the _.h file_ and _.c++ file_ names. Click _"OK"_ when you have a sensible name.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Add%20Class.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Add%20Class.PNG">
+</p> 
 
 Whatever method you used, you should have a header file (_.h_) and a C++ file (_.cpp_) file now present in the "Solution Explorer". Normally, the header file automatically opens so you can work on it straight away.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Class%20Created.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Class%20Created.png">
+</p> 
 
 > What is _#pragma once_ ? That's part of this session's homework!
 
@@ -146,9 +152,13 @@ Now, we could type the needed parts out manually... But, as programmers, we are 
 
 Hover your mouse over each part of the code with a squiggle and click on the screwdriver. Choose _"Create definition of ... in Cube.cpp"_ for all three of the needed areas.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/No%20definition.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/No%20definition.png">
+</p> 
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Added%20functions.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Added%20functions.PNG">
+</p> 
 
 Make sure your C++ file looks like this.
 
@@ -182,13 +192,17 @@ void Cube::Draw()
 ```
 Once this is added, you might notice that this is underlined with red squiggly lines. Hovering your mouse over any of these lines should give you a pop up window saying that _X is not defined_. 
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/OpenGL%20red%20functions.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/OpenGL%20red%20functions.PNG">
+</p> 
 
 If we try to now run our code, we will get a number of errors messages as well as pop up window saying **There were build errors.** Click the _"No"_ option to go back to Visual Studio.
 
 The "Error List" at the bottom of Visual Studio contains all the errors that stopped the project from compiling and running. Warnings do not stop it from compiling and running but are shown to us as a "You might want to look at this" type of message.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Error%20List.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/Error%20List.PNG">
+</p> 
 
 > When reading errors, start at the top of the list and read that first. **It might be that all the errors exist only because of this one.** This means that by fixing the top one, it may also fix all the others too. 
 
@@ -261,7 +275,9 @@ Hopefully, it is obvious this happens in the _drawScene_ function, where the res
 
 Running the project now will give us a red cube in the middle of the scene. Yay!
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/red%20cube.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/red%20cube.PNG">
+</p> 
 
 ## Creating multiple instances of the class
 
@@ -386,7 +402,9 @@ cube3 | (3, 0, 1)
 
 Once you have, run the project and check your scene to the example below.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%202/Readme%20Pictures/3%20cubes.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%202/Readme%20Pictures/3%20cubes.PNG">
+</p> 
 
 ## Documentation
 
