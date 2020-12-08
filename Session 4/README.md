@@ -1,13 +1,13 @@
 # Session 4 - Movement
 
 #### Table of Contents
-1. [Using polymorphism for storing instances](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%204#using-polymorphism-for-storing-instances)
-2. [Basic keyboard input](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%204#basic-keyboard-input)
-3. [Updating](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%204#updating)
-4. [The use of delta time](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%204#the-use-of-delta-time)
-5. [Improving on keyboard input](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%204#improving-on-keyboard-input)
-6. [Moving with the keyboard](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%204#moving-with-the-keyboard)
-7. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%204#homework)
+1. [Using polymorphism for storing instances](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%204#using-polymorphism-for-storing-instances)
+2. [Basic keyboard input](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%204#basic-keyboard-input)
+3. [Updating](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%204#updating)
+4. [The use of delta time](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%204#the-use-of-delta-time)
+5. [Improving on keyboard input](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%204#improving-on-keyboard-input)
+6. [Moving with the keyboard](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%204#moving-with-the-keyboard)
+7. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%204#homework)
 
 Last session, we added inheritance and polymorphism to our project in the form of inherited classes with an abstract base class.
 
