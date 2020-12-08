@@ -1,14 +1,14 @@
 # Session 5 - Linear Motion
 
 #### Table of Contents
-1. [Downfalls of last session's movement](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/README.md#downfalls-of-last-sessions-movement)
-2. [Making a Particle class](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/README.md#making-a-particle-class)
-3. [Making the Particle Move](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/README.md#making-the-particle-move)
-4. [Adding forces](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/README.md#adding-forces)
-5. [Implementing Euler's Method](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/README.md#implementing-eulers-method)
-6. [Improvements](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/README.md#improvements)
-7. [Using keyboard controls with linear motion](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%205#using-keyboard-controls-with-linear-motion)
-8. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/README.md#homework)
+1. [Downfalls of last session's movement](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/README.md#downfalls-of-last-sessions-movement)
+2. [Making a Particle class](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/README.md#making-a-particle-class)
+3. [Making the Particle Move](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/README.md#making-the-particle-move)
+4. [Adding forces](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/README.md#adding-forces)
+5. [Implementing Euler's Method](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/README.md#implementing-eulers-method)
+6. [Improvements](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/README.md#improvements)
+7. [Using keyboard controls with linear motion](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%205#using-keyboard-controls-with-linear-motion)
+8. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/README.md#homework)
 
 Last session, we added looked into keyboard input, use of an _Update_ function, delta time and controlling objects.
 
@@ -163,7 +163,9 @@ void Particle::Draw()
 
 I've commented out the rest of the objects so it only draws the particle.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/Readme%20Pictures/A%20particle.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/Readme%20Pictures/A%20particle.PNG">
+</p> 
 
 ## Making the Particle move
 
@@ -230,7 +232,9 @@ Now a force is being applied, we need to run the integrator to work out the acce
 
 With a force applied, we need to use a numerical method to calculate an approximation of the next position. For this example, we will use the one covered in Lecture 3, called **"Explicit Euler"**. This is a basic requirement for the coursework.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%205/Readme%20Pictures/Eulers%20Method.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%205/Readme%20Pictures/Eulers%20Method.png">
+</p> 
 
 > Looking at the above formulae, turn this into code and add it to the _Update_ function of the Particle class. **I would suggest that you really do try it yourself as turning formulae (or even word problems) into code is a programming interview standard and the more practice the better!**
 
