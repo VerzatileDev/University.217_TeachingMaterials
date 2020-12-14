@@ -2,16 +2,16 @@
 
 ### Table of Contents
 
-1. [Euler Angles](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%2010#euler-angles)
-2. [Axis-Angle Representation](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%2010#axis---angle-representation)
-3. [Rotation Matrices](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%2010#rotation-matrices)
-4. [Quaternions](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%2010#quaternions)
-5. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%2010#homework)
+1. [Euler Angles](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%2010#euler-angles)
+2. [Axis-Angle Representation](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%2010#axis---angle-representation)
+3. [Rotation Matrices](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%2010#rotation-matrices)
+4. [Quaternions](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%2010#quaternions)
+5. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%2010#homework)
 
 In the previous tutorials, we have only rotated around one axis of rotation to rotate a 2D rigid body.
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/2D%20rotation.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/2D%20rotation.JPG">
 </p>
 
 If we want to rotate in 3D space, we will have to rotate around all 3 axis of rotation. This can cause some issues when we use what is called Euler angles (which we currently are using). 
@@ -21,7 +21,7 @@ Rotations will look incorrect or not work at all. In this session, we will discu
 For a reminder, this is what rotations around each object looks like for a right handed co-ordinate system.
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/right%20handed%20coordinate%20rotation.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/right%20handed%20coordinate%20rotation.JPG">
 </p>
 
 > This session is different to the others as it is not a guide on how to achieve these things - It is more a starting point for you to learn about the methods and then be able to research into them more yourself for the coursework. (Remember, part of university is actually researching things yourself!)
@@ -35,7 +35,7 @@ In 2D rotation, we used a single float to orientate the rigid body in space. Thi
 > A degree of freedom is some quantity that we can change independent of others.
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/Z%20axis%20rotation.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/Z%20axis%20rotation.JPG">
 </p>
 
 For 3D rotation, we will need to use 3 angles to represent the orientation in all 3 axes of space: X, Y and Z. This is classed as three rotational degrees of freedom. As you can guess, this will take 3 floats.
@@ -43,7 +43,7 @@ For 3D rotation, we will need to use 3 angles to represent the orientation in al
 These are called the roll, pitch and yaw.
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/Explanation-of-roll-pitch-and-yaw-movements-of-a-gyroscope.png" height="250" width="250">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/Explanation-of-roll-pitch-and-yaw-movements-of-a-gyroscope.png" height="250" width="250">
 </p>
 
 We would then rotate an object in each axis at a time by each of the 3 floats to get an end position. (We would need to stick to an order of rotation for everything or the same rotations in a different order give different end results!)
@@ -61,11 +61,11 @@ The biggest problem with Euler angles is *Gimbal Lock*. This is when any of the 
 This is sometimes a hard concept to grasp. Hopefully the below pictures show the issue of gimbal lock further. By having an axis lock, it will lower the rotational degrees of freedom from three to two, as moving either one of the same axes that are locked together will result in the same rotational movement.
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/Gimbal-lock-When-the-pitch-Y-rotates-90-degrees-the-roll-X-and-yaw-Z-axes-become.png" height="200" width="600">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/Gimbal-lock-When-the-pitch-Y-rotates-90-degrees-the-roll-X-and-yaw-Z-axes-become.png" height="200" width="600">
 </p>
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/On-the-left-a-normal-situation-the-three-gimbals-are-independent-On-the-right-the.png">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/On-the-left-a-normal-situation-the-three-gimbals-are-independent-On-the-right-the.png">
 </p>
 
 > From Ian Millington's Games Physics Engine Development
@@ -87,7 +87,7 @@ Combinations of rotations can be represented as one rotation about a certain axi
 This gives us four degrees of freedom. However, the axis has to be normalized so it becomes only three degrees of freedom.
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/axis%20angle.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/axis%20angle.JPG">
 </p>
 
 ### Advantages
@@ -115,7 +115,7 @@ If it is a 3x3 matrix, it uses 9 floats. A 4x4 matrix uses 16 floats.
 There are different rotation matrices based on which axis we wish to rotate on. As you can see, for each axis, the rotation matrix holds a 1 so that the vertices are not altered on that axis. (There is a unified matrix that handles all three axes at the same time.)
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/rotation%20matrices.png">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/rotation%20matrices.png">
 </p>
 
 ### Advantages
@@ -149,7 +149,7 @@ The rotation matrix needs to keep orthogonal with a determinant of 1 so that eac
 A quaternion is a four dimensional quantity so it is made up of 4 components. As is normally written as:
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat1.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat1.JPG">
 </p>
 
 (where q0 is now w and gx, gy, gz is now x, y, z)
@@ -159,7 +159,7 @@ A quaternion is a four dimensional quantity so it is made up of 4 components. As
 As you can notice, we can make the x, y, z part a vector so a quaternion then becomes:
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat2.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat2.JPG">
 </p>
 
 (where *v* is (x, y, z))
@@ -169,21 +169,21 @@ For rotation, *v* is the direction in which the axis of rotation points. w is th
 > For example, if we wish to rotate around a unit vector (What makes a vector a unit vector?) *u* with an angle of *a* we can calculate this via:
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat3.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat3.JPG">
 </p>
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quaternion%20rotation%20formula.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quaternion%20rotation%20formula.JPG">
 </p>
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quaternion%20rotation.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quaternion%20rotation.JPG">
 </p>
 
 To rotate points/vectors, we can do the following:
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat3.JPG">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/quat3.JPG">
 </p>
 
 (where q* is the conjugate)
