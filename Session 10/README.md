@@ -48,6 +48,7 @@ These are called the roll, pitch and yaw.
 
 We would then rotate an object in each axis at a time by each of the 3 floats to get an end position. (We would need to stick to an order of rotation for everything or the same rotations in a different order give different end results!)
 
+
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2010/Readme%20Pictures/Order%20of%20Rotation.png">
 </p>
