@@ -1,12 +1,12 @@
 # Session 8 - Collision Detection
 
 #### Table of Contents
-1. [What is collision detection](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%208/README.md#what-is-collision-detection)
-2. [Object representation](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%208/README.md#object-representation)
-3. [Collision Detection](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%208/README.md#collision-detection)
-4. [Collision Data](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%208/README.md#collision-data)
-5. [Multiple Collider Types](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%208/README.md#multiple-collider-types)
-6. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%208/README.md#homework)
+1. [What is collision detection](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%208/README.md#what-is-collision-detection)
+2. [Object representation](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%208/README.md#object-representation)
+3. [Collision Detection](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%208/README.md#collision-detection)
+4. [Collision Data](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%208/README.md#collision-data)
+5. [Multiple Collider Types](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%208/README.md#multiple-collider-types)
+6. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%208/README.md#homework)
 
 We currently have objects moving around the game scene realistically with both linear and angular motion. However, these objects do not react to one another. Moving one object into another object is allowed and we cannot guage when a collision has happened.  This means our games will have no game logic nor object interaction. 
 
