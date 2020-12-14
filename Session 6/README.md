@@ -34,7 +34,9 @@ In games, we normally assume that a rigid body is an object that will not deform
 
 _(With mass changing, it is less of an issue as you can recalculate the mass per frame if needed. - If you are cool, you could do something like the following:- The hovercraft has rockets that, when fired, lower the mass of the overall hovercraft.)_
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%206/Readme%20Pictures/surprisedpikachu.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%206/Readme%20Pictures/surprisedpikachu.png">
+</p> 
 
 ## Making a 2D RigidBody class
 
@@ -139,7 +141,9 @@ void RigidBody2D::Draw()
 
 In this example below, the width and height are both 1 and the object has not been rotated.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%206/Readme%20Pictures/Rigidbody.PNG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%206/Readme%20Pictures/Rigidbody.PNG">
+</p> 
 
 ## Making a rigid body move
 
@@ -180,7 +184,9 @@ We will also have to work out the torque the forces apply to the rigid body, bec
 
 > Look at the below picture. What 3 pieces of information do we need to know in order to work out the torque? Look at the hidden answer once you think of all 3.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%206/Readme%20Pictures/torque%201.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%206/Readme%20Pictures/torque%201.png">
+</p> 
 
 <br/>
 <details>
@@ -191,8 +197,10 @@ We need to know:
 	* Allowing us to work out the distance from the pivot point and force
 * The amount or strength of the force
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%206/Readme%20Pictures/torque%202.png)
-  
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%206/Readme%20Pictures/torque%202.png">
+</p> 
+
 </details>
 <br/>
 
@@ -222,7 +230,9 @@ If we move the object to (3, 5, 0), the force's relative position does not chang
 
 If the torque formula is _**torque = (distance from pivot and force position) x (force value)**_, we can use this relative position as the distance from the pivot easily.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%206/Readme%20Pictures/torque%20formula.JPG)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%206/Readme%20Pictures/torque%20formula.JPG">
+</p> 
 
 > Add a force position variable of (1, 0, 0) and a force value variable of (2, 0, 0) into your rigid body.
 > Use the force value variable in the _CalculateForces_ function to update linear motion.
@@ -255,7 +265,9 @@ The rigidbody should move in the x axis only. There is no rotation / angular mot
 
 The rigidbody should move in linear space but also rotate. However, the rotation does not look like it is affecting the body much. It is not really rotating. Below is an example of the rigidbody with the above force applied over a few frames.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%206/Readme%20Pictures/Force%20applied%20over%20time.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%206/Readme%20Pictures/Force%20applied%20over%20time.png">
+</p> 
 
 > What could be causing this? Print out the value of orientation after you update it. What is it? What should it be? Give it a think before you look at the hidden answer below.
 
