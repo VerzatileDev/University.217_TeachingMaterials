@@ -1,9 +1,9 @@
 # Session 11 - Mass Springs and Soft Bodies
 #### Table of Contents
 
-1. [Mass Spring Systems - Rope](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2011/README.md#mass-spring-systems---rope)
-2. [Considerations for programming](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2011/README.md#considerations-for-programming)
-3. [Mass Spring Systems - Cloth/Water Surfaces](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2011/README.md#mass-spring-systems---clothwater-surfaces)
+1. [Mass Spring Systems - Rope](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2011/README.md#mass-spring-systems---rope)
+2. [Considerations for programming](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2011/README.md#considerations-for-programming)
+3. [Mass Spring Systems - Cloth/Water Surfaces](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2011/README.md#mass-spring-systems---clothwater-surfaces)
 
 For this tutorial, we will discuss mass spring systems and how we can use these for soft bodies. **I am not expecting anyone to do this for the coursework, but if you are interested in the concept (or want a challenge), this is something you could look into.**
 
@@ -68,7 +68,7 @@ One way to program this would be to generate the objects outside of the class an
 Once the objects are in the class, you will then go through all the objects and connect them to the next object along by creating a spring between them, setting the variables for the spring inside the same loop.
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/spring%20rest%20length.png">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/spring%20rest%20length.png">
 </p>
 
 After this, you may want to either hard code which particles/rigid bodies will not move or have a seperate function that takes in a number of indices and updates the objects to tell them they are non moving. By non-moving, we mean they will not be updated by the equations of motion and as such, stay fixed in space. This will allow the other objects to move around the fixed ones instead of just falling in digital space forever.
@@ -119,7 +119,7 @@ This is the difference when no gravity is applied and when gravity is applied. I
 > As you can see, without an external force (such as gravity) the rope will not move past its initial position (aka the rope of the left). We need this external force to move the rope out of it's equilibrium position!
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/springs%20gravity%20vs%20none.png">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/springs%20gravity%20vs%20none.png">
 </p>
 
 Then each object's _Update_ function is called with deltaTime to update the acceleration, which updates the velocity, which updates the position of the objects.
@@ -146,7 +146,7 @@ From left to right:
 * The final cloth with all the spring connections above. Due to them all being on the same Z axis, it looks like a few are missing but all the previous springs shown are present!
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/connections.png">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/connections.png">
 </p>
 
 With the left hand side and right hand side particles of the cloth blocked from movement and updates, this is how the spring forces and gravity forces act. The damping value is 1 and the stiffness value is 100 for all the springs.
@@ -159,7 +159,7 @@ From left to right:
 * All the spring connections above. 
 
 <p align="center">
-<img src="https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/gravity%20on%20cloth.png">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%2011/Readme%20Pictures/gravity%20on%20cloth.png">
 </p>
 
 Note: For the far springs, as these connections are neigbours that are 2 away, the cloth splits into two.
