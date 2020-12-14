@@ -1,12 +1,12 @@
 # Session 9 - Collision Response
 
 #### Table of Contents
-1. [New concepts for collision response](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%209#new-concepts-for-collision-response)
-2. [The most basic collision response](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%209/README.md#the-most-basic-collision-response)
-3. [Point masses](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%209#point-masses)
-4. [Interpenetration](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%209#interpenetration)
-5. [Rigid Bodies](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%209#rigid-bodies)
-6. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%209#homework)
+1. [New concepts for collision response](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%209#new-concepts-for-collision-response)
+2. [The most basic collision response](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%209/README.md#the-most-basic-collision-response)
+3. [Point masses](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%209#point-masses)
+4. [Interpenetration](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%209#interpenetration)
+5. [Rigid Bodies](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%209#rigid-bodies)
+6. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%209#homework)
 
 We have physics objects moving around the environment and detecting collisions. However, the objects still just move through each other without any interaction. Pretty much all games need objects to interact with one another when they collide.
 
@@ -83,7 +83,9 @@ Both the collision interpenetration depth and the collision normal are needed he
 
 The "basic" version of this fix would be to move both objects (aka change the position directly) in opposite directions along the collision normal by the penetration depth amount.
 
-![](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/blob/master/Session%209/Readme%20Pictures/solving%20sphere%20pen.png)
+<p align="center">
+<img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%209/Readme%20Pictures/solving%20sphere%20pen.png">
+</p> 
 
 Because the collision resolution happens in a frame, objects with a small amount of penetration depth will be un-noticable by players when they are moved. Bigger objects with more depth will be more obvious (because they will move a larger amount), but will resolve and collide off each other without objects getting stuck or oscillating.
 
@@ -97,9 +99,6 @@ We will now need to:
 * Work out the impulse with the updated impulse formula (which takes into account rotational motion).
 * Apply this impulse to linear motion (via linear velocity) as before.
 * Apply this impulse to rotation motion (via rotational velocity) as before.
-
-> 
-
 
 ## Homework
 * Add different co-efficients of restitution to objects in your scene so that objects bounce or stick after a collision differently depending on the object collided with. (Remember to keep within the right bounds for the co-efficient!)
