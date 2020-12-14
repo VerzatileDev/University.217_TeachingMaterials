@@ -1,12 +1,12 @@
 # Session 6 - Rotational Motion
 
 #### Table of Contents
-1. [What is rotational motion?](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%206#what-is-rotational-motion)
-2. [What is a rigid body?](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%206#what-is-a-rigid-body)
-3. [Making a 2D RigidBody class](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%206#making-a-2d-rigidbody-class)
-4. [Making a rigid body move](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%206#making-a-rigid-body-move)
-5. [Turning this into a 3D rigid body](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%206#turning-this-into-a-3d-rigidbody)
-6. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%206#homework)
+1. [What is rotational motion?](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%206#what-is-rotational-motion)
+2. [What is a rigid body?](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%206#what-is-a-rigid-body)
+3. [Making a 2D RigidBody class](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%206#making-a-2d-rigidbody-class)
+4. [Making a rigid body move](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%206#making-a-rigid-body-move)
+5. [Turning this into a 3D rigid body](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%206#turning-this-into-a-3d-rigidbody)
+6. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%206#homework)
 
 Last session, we added linear motion into our scene with the use of Euler's method.
 
