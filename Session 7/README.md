@@ -1,11 +1,11 @@
 # Session 7 - Putting it into a game engine format
 
 #### Table of Contents
-1. [Issues with the current code](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%207#issues-with-the-current-code)
-2. [What we can do to allievate this?](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%207#what-we-can-do-to-allievate-this)
-3. [The GameEngine class](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%207#the-gameengine-class)
-4. [Changing the main.cpp](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%207#changing-the-maincpp)
-5. [Homework](https://github.coventry.ac.uk/217CR-1920JANMAY/Teaching-Material/tree/master/Session%207#homework)
+1. [Issues with the current code](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%207#issues-with-the-current-code)
+2. [What we can do to allievate this?](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%207#what-we-can-do-to-allievate-this)
+3. [The GameEngine class](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%207#the-gameengine-class)
+4. [Changing the main.cpp](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%207#changing-the-maincpp)
+5. [Homework](https://github.coventry.ac.uk/217CR-2021/Teaching-Material/tree/master/Session%207#homework)
 
 For this session, we will take all the code we have created so far and adjust it so it comes together into a more coherent "Game Engine" format.
 
