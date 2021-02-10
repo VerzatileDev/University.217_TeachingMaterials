@@ -32,7 +32,7 @@ A rigid body is a system of particles that are absolutely fixed with respect to 
 
 In games, we normally assume that a rigid body is an object that will not deform in any way. What we mean by that is it's shape will not change (for example, moving of vertices, denting etc.) and that it's mass will not change. 
 
-_(With mass changing, it is less of an issue as you can recalculate the mass per frame if needed. - If you are cool, you could do something like the following:- The hovercraft has rockets that, when fired, lower the mass of the overall hovercraft.)_
+_(With mass changing, it is less of an issue as you can recalculate the mass per frame if needed. - If you are cool, you could do something like the following:- The player has rockets that, when fired, lower the mass of the overall player.)_
 
 <p align="center">
 <img src="https://github.coventry.ac.uk/217CR-2021/Teaching-Material/blob/master/Session%206/Readme%20Pictures/surprisedpikachu.png">
@@ -292,8 +292,7 @@ I'll leave this up to you to research but consider:
 Make sure to read the lecture slides again about these.
 
 ## Homework
-* You will want the player to control the hovercraft. Think about how the placement of forces, along with keyboard controls, can be used to allow this to happen. You will need multiple forces and a way to turn them on and off!
-* Tweak the values used to make the hovercraft "feel" like a hovercraft when it moves and turns. This could be force values but could also be the shape of the rigidbody and its dimensions.
+* You will want the user to control the player. Think about how the placement of forces, along with keyboard controls, can be used to allow this to happen. You will need multiple forces and a way to turn them on and off!
 * This tutorial did not consider any other forces such as drag and gravity. Think about and try to add these in whichever way you see fit.
 * Once forces are present that rotate the object in your code, you will notice that your the relative positions of the forces are not working as expected. For example, a relative force on the X axis will still move the object on the X axis even when the object is rotated 90 degrees.
 	* This is because the force positions are in body space while they really should be in world space so that when the objet rotates, the linear force created does as well.
